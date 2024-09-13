@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear Person.</strong>
+                        <p style="font-size: 5.5px" >
+                            Do you know, you are the best girl ive ever met in my live that i want to love forever, 
+    you are the strongest both of us so please stay with me and dont leave me
+    this my courtship on you again i will change everything on me para saken at para sayo ikaw lng din maka benepisyo neto.
+    at gusto ko mananatili kapa sa buhay ko. ikaw yung babae na gusto ko pakasalan at makasama habang buhay, lagi kitang aantayin dito lang ako at di ako aalis.
+    sorry sa mga kamalian nagawa ko at mga pinapakita ko na ugali. im really scared baby. please comeback to mee.
+    botong boto si mama sayo gusto ka nga nya makita gusto nga nya pag kita natin mag call daw tayo sa kanya
+    so please dont leave me please i cant move on. kasi ikaw nayung last risk at last girl na mamahalin ko so please dont leave me.
+    HAPPY 4thMONTHSARY BABYY ILOVEEEYOUUU SO MUCHHH MWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
